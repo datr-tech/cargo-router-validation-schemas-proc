@@ -1,0 +1,7 @@
+{
+  "threadId": { "in": "params", "isMongoId": true, "notEmpty": true },
+  "hopId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
+  "processId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
+  "adminStatusId": { "default": "undefined", "in": "body", "isMongoId": true, "notEmpty": false, "optional": { "values": "undefined" } },
+  "adminUserId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } }
+}
