@@ -14,13 +14,16 @@ import threadValidationSchemaReadThreadJson from './threadValidationSchemaReadTh
 
 import threadValidationSchemaDeleteThreadJson from './threadValidationSchemaDeleteThread.json';
 
-export const processValidationSchemaCreateProcess = processValidationSchemaCreateProcessJson;
+export const processValidationSchemaCreateProcess =
+  processValidationSchemaCreateProcessJson;
 
-export const processValidationSchemaUpdateProcess = processValidationSchemaUpdateProcessJson;
+export const processValidationSchemaUpdateProcess =
+  processValidationSchemaUpdateProcessJson;
 
 export const processValidationSchemaReadProcess = processValidationSchemaReadProcessJson;
 
-export const processValidationSchemaDeleteProcess = processValidationSchemaDeleteProcessJson;
+export const processValidationSchemaDeleteProcess =
+  processValidationSchemaDeleteProcessJson;
 
 export const threadValidationSchemaCreateThread = threadValidationSchemaCreateThreadJson;
 

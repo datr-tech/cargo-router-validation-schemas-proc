@@ -1,7 +1,31 @@
 {
-  "processId": { "in": "params", "isMongoId": true, "notEmpty": true },
-  "frameworkId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
-  "journeyId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
-  "adminStatusId": { "default": "undefined", "in": "body", "isMongoId": true, "notEmpty": false, "optional": { "values": "undefined" } },
-  "adminUserId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } }
+  "adminStatusId": {
+    "default": "undefined",
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "optional": { "values": "undefined" }
+  },
+  "adminUserId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
+    "optional": { "values": "undefined" }
+  },
+  "frameworkId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
+    "optional": { "values": "undefined" }
+  },
+  "journeyId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
+    "optional": { "values": "undefined" }
+  },
+  "processId": { "in": "params", "isMongoId": true, "notEmpty": true }
 }

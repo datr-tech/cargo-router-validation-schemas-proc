@@ -1,6 +1,12 @@
 {
+  "adminStatusId": {
+    "default": "undefined",
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "optional": { "values": "undefined" }
+  },
+  "adminUserId": { "in": "body", "isMongoId": true, "notEmpty": false },
   "frameworkId": { "in": "body", "isMongoId": true, "notEmpty": false },
-  "journeyId": { "in": "body", "isMongoId": true, "notEmpty": false },
-  "adminStatusId": { "default": "undefined", "in": "body", "isMongoId": true, "notEmpty": false, "optional": { "values": "undefined" } },
-  "adminUserId": { "in": "body", "isMongoId": true, "notEmpty": false }
+  "journeyId": { "in": "body", "isMongoId": true, "notEmpty": false }
 }
